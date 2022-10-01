@@ -21,15 +21,15 @@ function App() {
         'Calibri',
       ].join(',')
     },
-    components: {
-      MuiPaper: {
-        styleOverrides: {
-          root: {
-            borderRadius: '16px',
-          },
-        },
-      },
-    },
+    // components: {
+    //   MuiPaper: {
+    //     styleOverrides: {
+    //       root: {
+    //         borderRadius: '16px',
+    //       },
+    //     },
+    //   },
+    // },
   });
 
   return (
