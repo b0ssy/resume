@@ -110,7 +110,7 @@ export default function Home() {
                 variant='subtitle1'
                 color='textPrimary'
               >
-                91551589
+                {process.env['REACT_APP_PHONE']}
               </Typography>
             </Stack>
             <Stack
@@ -123,7 +123,7 @@ export default function Home() {
                 variant='subtitle1'
                 color='textPrimary'
               >
-                superbos88@hotmail.com
+                {process.env['REACT_APP_EMAIL']}
               </Typography>
             </Stack>
             <Stack
@@ -136,7 +136,7 @@ export default function Home() {
                 variant='subtitle1'
                 color='textPrimary'
               >
-                https://www.linkedin.com/in/yong-sheng-chia-8b7008148/
+                {process.env['REACT_APP_LINKEDIN']}
               </Typography>
             </Stack>
           </Stack>
